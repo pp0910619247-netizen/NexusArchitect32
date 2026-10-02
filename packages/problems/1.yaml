@@ -1,0 +1,12 @@
+blockHeight: 1
+type: OPEN_ENDED
+disciplines:
+  - Physics
+  - Mathematics
+difficulty: 1
+statement:
+  en: A 2 kg object accelerates at 3 m/s². What net force acts on it, and which
+    mathematical model gives the result? Variant 1.
+  th: วัตถุมวล 2 กก. มีความเร่ง 3 ม./วินาที² แรงลัพธ์ที่กระทำคือเท่าไร
+    และใช้แบบจำลองทางคณิตศาสตร์ใด รูปแบบที่ 1.
+answerCommitHash: "0x788ff6c540e8c1899f5e6974c8214bb1b033b406b7040ffbb7c564c09d137373"

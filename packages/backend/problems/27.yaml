@@ -1,0 +1,12 @@
+blockHeight: 27
+type: DETERMINISTIC
+disciplines:
+  - Earth Science
+  - Geography
+difficulty: 7
+statement:
+  en: Mountain glaciers retreat while exposed rock absorbs more solar energy. What
+    is the dominant feedback? Variant 2.
+  th: ธารน้ำแข็งบนภูเขาถูย่อยจนเผยหินที่ดูดซับแสงอาทิตย์เพิ่ม feedback หลักคืออะไร
+    รูปแบบที่ 2.
+answerCommitHash: "0x206dd1943b1ef4939801695507f0da0f236d9e29fb11aee8f34fd492f4e99586"

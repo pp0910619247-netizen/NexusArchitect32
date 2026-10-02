@@ -1,0 +1,39 @@
+{
+  "setId": 1,
+  "schema": "world-v2",
+  "questionCount": 10000,
+  "bankRoot": "0x60cf261f6db02e832a0b1b5d4d805821774292e9513a76e61974a5dc61098dbc",
+  "provenance": {
+    "manifest": "packages/backend/questions/world-v2/manifest.json",
+    "bankFile": "packages/backend/questions/world-v2/questions-00001-01000.jsonl",
+    "line": 1,
+    "sourceHashRule": "sha256 of the JSONL line exactly as written, excluding the trailing newline"
+  },
+  "item": {
+    "itemId": "w2-000001",
+    "sourceHash": "0x1a7ae9d69a5ba8dbb081f9dc2d627c93fa8ff09815a65d210b00df69f4ed16c2",
+    "prompt": {
+      "th": "4 วิชาพร้อมกัน: เคมี · แพทยศาสตร์และสุขภาพ · เศรษฐศาสตร์ · ปรัชญาและตรรกศาสตร์\n[1] มวลโมลาร์ของคาร์บอนไดออกไซด์ (มก./โมล) / [2] จำนวนวินาทีใน 90 นาที / [3] จำนวนส่วนในล้านที่เท่ากับ 1 เปอร์เซ็นต์ / [4] จำนวนแถวของตารางความจริงที่มี 12 ตัวแปร\nตัวเลือกใดถูกต้องครบทุกรายการ (ตัวเลขทุกตัวต้องตรง)?",
+      "en": "4 subjects at once: Chemistry · Medicine & Health · Economics · Philosophy & Logic\n[1] molar mass of carbon dioxide (mg/mol) / [2] seconds in ninety minutes / [3] parts per million in one percent / [4] rows in a truth table with twelve variables\nWhich option is correct in every clause (every number must match)?"
+    },
+    "options": {
+      "th": [
+        "44,009 มก./โมล · 5,400 วินาที · 1,000 ส่วนในล้าน · 4,096 แถว",
+        "44,009 มก./โมล · 5,400 วินาที · 10,000 ส่วนในล้าน · 4,096 แถว",
+        "44,008 มก./โมล · 5,400 วินาที · 10,000 ส่วนในล้าน · 2,048 แถว",
+        "44,008 มก./โมล · 5,401 วินาที · 1,000 ส่วนในล้าน · 4,096 แถว"
+      ],
+      "en": [
+        "44,009 mg/mol · 5,400 seconds · 1,000 ppm · 4,096 rows",
+        "44,009 mg/mol · 5,400 seconds · 10,000 ppm · 4,096 rows",
+        "44,008 mg/mol · 5,400 seconds · 10,000 ppm · 2,048 rows",
+        "44,008 mg/mol · 5,401 seconds · 1,000 ppm · 4,096 rows"
+      ]
+    }
+  },
+  "answerSource": {
+    "index": "QUIZ_ANSWER_INDEX",
+    "salt": "QUIZ_ANSWER_SALT",
+    "note": "never committed: a 4-option answer space is brute-forceable without a secret 32-byte salt"
+  }
+}

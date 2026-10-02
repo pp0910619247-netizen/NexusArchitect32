@@ -1,0 +1,11 @@
+blockHeight: 28
+type: DETERMINISTIC
+disciplines:
+  - Medicine
+  - Biochemistry
+difficulty: 8
+statement:
+  en: A drug inhibits an enzyme. Which effect is most direct on substrate
+    concentration? Variant 2.
+  th: ยายับยั้งเอนไซม์ ผลโดยตรงที่สุดต่อความเข้มข้นของซับสเตรตคืออะไร รูปแบบที่ 2.
+answerCommitHash: "0x49fbf466cf3d6fea5d2c61e809e88f6b28a73953db3c69780604d218d503146c"

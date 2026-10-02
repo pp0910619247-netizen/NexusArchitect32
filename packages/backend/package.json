@@ -1,0 +1,47 @@
+{
+  "name": "@nexus/backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Nexus Architect backend — stateless, event-driven services (Problem Bank API, Random Hourly Block Scheduler)",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "dev": "node --enable-source-maps dist/server.js",
+    "start": "node --enable-source-maps dist/server.js",
+    "problem:add": "node dist/cli/problem-add.js",
+    "problem:seed": "node dist/cli/problem-seed.js",
+    "anchor:smoke": "node --enable-source-maps dist/chain/anchor-smoke.js",
+    "chain:export": "node --enable-source-maps dist/chain/export-explorer.js",
+    "world:generate": "node --enable-source-maps dist/worldbank/generate.js",
+    "world:validate": "node --enable-source-maps dist/worldbank/validate.js",
+    "world:ai-eval": "node --enable-source-maps dist/worldbank/ai-eval.js",
+    "world2:generate": "node --enable-source-maps dist/worldbank/v2/generate.js",
+    "world2:validate": "node --enable-source-maps dist/worldbank/v2/validate.js"
+  },
+  "dependencies": {
+    "@fastify/rate-limit": "^11.2.0",
+    "@nexus/indexer": "workspace:*",
+    "@nexus/shared": "workspace:*",
+    "fastify": "^5.12.5",
+    "viem": "^2.56.8",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}

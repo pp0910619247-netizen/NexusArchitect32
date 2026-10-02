@@ -1,0 +1,12 @@
+blockHeight: 4
+type: DETERMINISTIC
+disciplines:
+  - Computer Science
+  - Mathematics
+difficulty: 4
+statement:
+  en: A hash table has load factor 0.75. What bucket count is nearest for 300
+    entries? Variant 1.
+  th: ตารางแฮชมี load factor 0.75 จำนวนช่องใกล้เคียงที่สุดสำหรับ 300
+    รายการคือเท่าไร รูปแบบที่ 1.
+answerCommitHash: "0xc2436c674abba55f69f22abc7244cde66ca538d6a24df57e92ad7dafb840455f"

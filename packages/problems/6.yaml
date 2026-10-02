@@ -1,0 +1,12 @@
+blockHeight: 6
+type: OPEN_ENDED
+disciplines:
+  - Environmental Science
+  - Biology
+difficulty: 6
+statement:
+  en: Wetland loss increases nutrient runoff. Which feedback mechanism can amplify
+    eutrophication? Variant 1.
+  th: การสูญเสียพื้นที่ชุ่มทำให้ธาตุอาหารไหลลงแม่น้ำมากขึ้น กลไก feedback ใดทำให้
+    eutrophication รุนแรงขึ้น รูปแบบที่ 1.
+answerCommitHash: "0x2ffdf4609630c9b593e9afc16210a9ad2f6c13d683a31b8d009509e922c50202"

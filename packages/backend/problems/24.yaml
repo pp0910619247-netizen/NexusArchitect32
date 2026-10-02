@@ -1,0 +1,12 @@
+blockHeight: 24
+type: DETERMINISTIC
+disciplines:
+  - Linguistics
+  - Philosophy
+difficulty: 4
+statement:
+  en: Meaning changes with social context. Which linguistic theory emphasizes
+    this? Variant 2.
+  th: ความหมายเปลี่ยนแปลงตามบริบททางสังคม ทฤษฎีภาษาศาสตร์ใดเน้นแนวคิดนี้ รูปแบบที่
+    2.
+answerCommitHash: "0x62d9e5d46513e56e0299c77361d4947bf20662de0d0f809ef8890e79a5bde0da"

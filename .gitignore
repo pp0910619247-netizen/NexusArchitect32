@@ -1,0 +1,73 @@
+# ===== dependencies =====
+node_modules/
+
+# ===== build output =====
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+coverage/
+
+# ===== Next.js / Vercel =====
+**/.next/
+.vercel/
+.vercel/output/
+
+# ===== Expo / mobile (native + web build are produced locally, not committed) =====
+.expo/
+apps/mobile/web-build/
+apps/mobile/android/
+apps/mobile/ios/
+
+# ===== Foundry / contracts build artifacts =====
+packages/contracts/out/
+packages/contracts/cache/
+packages/contracts/broadcast/
+
+# ===== env & secrets — never commit (AGENTS.md §6) =====
+# .env.example is a template and MUST stay committable; the negation is last.
+.env
+.env.*
+!**/.env.example
+
+# ===== Problem Bank secrets: answerPlain + salt must never enter Git =====
+# (AGENTS.md §6, packages/backend/README.md)
+packages/backend/private/
+packages/backend/.problem-secrets/
+packages/backend/problems/*.secrets.yaml
+packages/private/
+**/private/problems/
+**/.problem-secrets/
+**/*.secrets.yaml
+
+# ===== generated world question banks (deterministic; rebuild with world:generate) =====
+packages/backend/questions/
+
+# ===== local quiz-chain node data =====
+.chain-data/
+
+# ===== throwaway credentials written by backend tests =====
+packages/backend/test/.tmp-*/
+
+# ===== built mobile artifacts (APK/AAB produced locally or via EAS) =====
+*.apk
+*.aab
+
+# ===== logs & backups =====
+*.log
+*.bak
+
+# ===== tooling noise =====
+.freebuff/
+.vscode/
+.DS_Store
+
+# ===== EAS build receipts pulled down by the CLI =====
+.eas-*.json
+.eas-*.txt
+
+# compiled output that leaked into a source dir (source is the .ts next to it)
+packages/indexer/test/*.js
+packages/indexer/test/*.js.map
+packages/indexer/test/*.d.ts
+packages/indexer/test/*.d.ts.map

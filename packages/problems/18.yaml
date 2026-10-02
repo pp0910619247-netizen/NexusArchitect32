@@ -1,0 +1,12 @@
+blockHeight: 18
+type: DETERMINISTIC
+disciplines:
+  - Economics
+  - Statistics
+difficulty: 8
+statement:
+  en: A 2% monthly inflation rate compounds for 6 months. What is the approximate
+    purchasing-power multiplier? Variant 2.
+  th: อัตราเงินเฟ้อรายเดือน 2% ทบต้น 6 เดือน ตัวคูณอำนาจซื้อประมาณเท่าใด รูปแบบที่
+    2.
+answerCommitHash: "0x3c64ca9c364c33f467e907df0dc58f4b217306ae9de35d99cc0caa87232189f2"

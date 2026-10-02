@@ -1,0 +1,11 @@
+blockHeight: 11
+type: OPEN_ENDED
+disciplines:
+  - Data Science
+  - Computer Science
+difficulty: 1
+statement:
+  en: Training accuracy is high while test accuracy is low. Which diagnosis is
+    most appropriate? Variant 1.
+  th: ค่าความแม่นยำฝึกสูง แต่ค่าความแม่นยำทดสอบต่ำ ควรวินิจฉัยเป็นอะไร รูปแบบที่ 1.
+answerCommitHash: "0x9d558edf86a0d7733368954ec715b5acae712a5a36ee6aa061bca09eb3224c73"

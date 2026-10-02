@@ -1,0 +1,12 @@
+blockHeight: 15
+type: DETERMINISTIC
+disciplines:
+  - Education
+  - Psychology
+difficulty: 5
+statement:
+  en: Retrieval practice improves later retention. Which learning principle
+    supports it? Variant 1.
+  th: การฝึกเรียกความรู้กลับมาช่วยเพิ่มการจำในภายหลัง
+    หลักการการเรียนรู้ใดสนับสนุนเรื่องนี้ รูปแบบที่ 1.
+answerCommitHash: "0x95c3f3c3c42ba80cc6daf429c5e45d32bd41b015a65c24da93dc683b86b4c82c"

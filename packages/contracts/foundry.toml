@@ -1,0 +1,23 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.24"
+via_ir = true
+optimizer = true
+remappings = [
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+    "forge-std/=lib/forge-std/src/"
+]
+no_match_coverage = "script/.*|test/.*"
+
+# Read-only access to the generated public quiz-set data (data/*.json) used by
+# script/DeployQuizQuestionSet.s.sol and script/RevealQuizAnswer.s.sol.
+# Nothing in src/ or test/ touches the filesystem, and no write access is granted.
+fs_permissions = [{ access = "read", path = "data" }]
+
+[profile.coverage]
+via_ir = true
+
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

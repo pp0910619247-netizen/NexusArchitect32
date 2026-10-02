@@ -1,0 +1,8 @@
+{
+  "name": "@nexus/nex32scan",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "typecheck": "tsc --noEmit", "test": "vitest run --passWithNoTests", "bake:snapshot": "node scripts/bake-explorer-snapshot.mjs", "deploy:vercel": "pnpm dlx vercel deploy --prod --cwd ../.. --yes" },
+  "dependencies": { "@nexus/indexer": "workspace:*", "@nexus/shared": "workspace:*", "next": "^14.2.35", "react": "^18.3.1", "react-dom": "^18.3.1" },
+  "devDependencies": { "@types/node": "^22.10.5", "@types/react": "^18.3.31", "@types/react-dom": "^18.3.7", "autoprefixer": "^10.6.1", "postcss": "^8.5.28", "tailwindcss": "^3.4.19", "typescript": "^5.7.3", "vitest": "^3.2.7" }
+}

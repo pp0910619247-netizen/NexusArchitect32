@@ -1,0 +1,12 @@
+blockHeight: 2
+type: DETERMINISTIC
+disciplines:
+  - Chemistry
+  - Biology
+difficulty: 2
+statement:
+  en: At 25°C, dissolving 36 g of NaCl in water changes conductivity. What
+    molecular interaction explains this? Variant 1.
+  th: ที่ 25°C การละลาย NaCl 36 ก. ในน้ำทำให้การนำไฟฟ้าเปลี่ยนแปลง
+    การโต้ตอบระหว่างโมเลกุลใดอธิบายเหตุนี้ รูปแบบที่ 1.
+answerCommitHash: "0x36fbca297e84f6d68562f25aa553a8d8e32522a7dfa790260950525b40efa2d2"

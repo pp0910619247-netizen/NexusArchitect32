@@ -1,0 +1,12 @@
+blockHeight: 5
+type: DETERMINISTIC
+disciplines:
+  - Philosophy
+  - History
+difficulty: 5
+statement:
+  en: If everyone treats a rule as legitimate solely because authorities enforce
+    it, which legitimacy type is shown? Variant 1.
+  th: ถ้าทุกคนยอมรับกฎเพียงเพราะเจ้าหน้าที่บังคับใช้ เป็นความชอบธรรมแบบใด
+    รูปแบบที่ 1.
+answerCommitHash: "0xdf191c967e109c020f10b0cc72262fba6a19aad57620301726919694c182c469"

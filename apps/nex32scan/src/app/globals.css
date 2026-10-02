@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Warm cream, not a glaring white: the page sits on `#FAF6EC` (soft
+ * yellow-white), cards stay pure white and the accent is the gold of the
+ * brand mark (public/logo.png). Light-only, so the site looks the same
+ * for every reader.
+ */
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-[#FAF6EC] text-stone-900 antialiased;
+}

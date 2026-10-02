@@ -1,0 +1,28 @@
+# Keeps `vercel deploy` uploads from the repo root (cloud build with
+# Root Directory = apps/nex32scan) small and clean — see apps/nex32scan/DEPLOY.md.
+
+# Build output — always rebuilt on Vercel
+**/.next/
+**/dist/
+**/.turbo/
+**/*.tsbuildinfo
+**/coverage/
+
+# Prebuilt CLI output (only relevant to the local --prebuilt flow)
+.vercel/output/
+
+# Android / Expo local build output (APKs are built locally or via EAS)
+apps/mobile/android/build/
+apps/mobile/android/app/build/
+apps/mobile/android/.gradle/
+apps/mobile/.expo/
+
+# Local quiz-chain data — the app ships a baked snapshot in src/generated/
+.chain-data/
+
+# Local env files — cloud builds must read env from the Vercel dashboard
+**/.env
+**/.env.*
+
+# Local service logs
+*.log

@@ -1,0 +1,12 @@
+blockHeight: 25
+type: DETERMINISTIC
+disciplines:
+  - Sociology
+  - Economics
+difficulty: 5
+statement:
+  en: If participation rises when trust rises, which structural condition can
+    reproduce inequality? Variant 2.
+  th: เมื่อการมีส่วนร่วมเพิ่มขึ้นตามความไว้ใจ
+    องค์ประกอบเชิงโครงสร้างใดอาจทำให้ความเหลื่อมล้ำถูกทำซ้ำ รูปแบบที่ 2.
+answerCommitHash: "0x36fb4f6ccb2646d93b0d04648910ffe9288d41834fcc5c83e027e645955d788d"

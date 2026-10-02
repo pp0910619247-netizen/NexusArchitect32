@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "pnpm install --no-frozen-lockfile",
+  "buildCommand": "node scripts/bake-explorer-snapshot.mjs && pnpm --filter @nexus/indexer build && pnpm --filter @nexus/shared build && next build",
+  "devCommand": "pnpm dev",
+  "framework": "nextjs"
+}

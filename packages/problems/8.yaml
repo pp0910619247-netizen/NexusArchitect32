@@ -1,0 +1,12 @@
+blockHeight: 8
+type: DETERMINISTIC
+disciplines:
+  - Astronomy
+  - Physics
+difficulty: 8
+statement:
+  en: A planet receives 1/4 sunlight of Earth. By inverse-square law, what is
+    orbital-radius ratio? Variant 1.
+  th: ดาวเคราะห์ดาวหนึ่งได้รับแสง 1/4 ของโลก ตามกฎกำลังสองผกผัน
+    อัตราส่วนรัศมีวงโคจรเป็นเท่าไร รูปแบบที่ 1.
+answerCommitHash: "0x2896baa32783b018751a4e1294deaeb4a98ffb8644ffd57d29ed5b855daa5631"

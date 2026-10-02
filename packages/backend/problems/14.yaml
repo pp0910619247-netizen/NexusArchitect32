@@ -1,0 +1,12 @@
+blockHeight: 14
+type: DETERMINISTIC
+disciplines:
+  - Law
+  - Philosophy
+difficulty: 4
+statement:
+  en: A norm is valid only when enacted by a legislature. Which school of thought
+    is closest? Variant 1.
+  th: กฎมีความชอบธรรมเฉพาะเมื่อรัฐบัญญัติออกมา โรงเรียนความคิดใดใกล้เคียงที่สุด
+    รูปแบบที่ 1.
+answerCommitHash: "0x254b18b324c5d4d233605c5babb21bf3dbe2506e1fb8657248eead3933ef3bb3"

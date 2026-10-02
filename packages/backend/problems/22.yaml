@@ -1,0 +1,12 @@
+blockHeight: 22
+type: DETERMINISTIC
+disciplines:
+  - Psychology
+  - Neuroscience
+difficulty: 2
+statement:
+  en: A learner remembers an event better when spaced over several days. Which
+    memory effect explains this? Variant 2.
+  th: ผู้เรียนจำเหตุการณ์ได้ดีขึ้นเมื่อทบทวนห่างกันหลายวัน
+    ผลของความจำใดอธิบายเรื่องนี้ รูปแบบที่ 2.
+answerCommitHash: "0x951af8260c240591ddd2117b4c73a237b8fa237ef7a978da9e3d012f8834387d"
