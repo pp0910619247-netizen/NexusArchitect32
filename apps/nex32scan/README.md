@@ -15,6 +15,7 @@ pnpm --filter @nexus/nex32scan test    # vitest
 
 | Route | What it shows |
 | --- | --- |
+| `/` | Project landing page (EN/TH): hero, three pillars, tokenomics, product links — routes into the explorer |
 | `/[lang]` | Stat bar, Genesis reward tiles, **Latest blocks**, **Latest answers**, latest questions |
 | `/[lang]/blocks?page=n` | All sealed blocks, 25 per page |
 | `/[lang]/block/[height]` | Overview table, Genesis reward split (10 / 40 / 60) **plus the block's winner** (fastest correct answer), question + options, answers in the block (the winner's row carries a `Winner` badge) |
@@ -23,7 +24,7 @@ pnpm --filter @nexus/nex32scan test    # vitest
 | `/[lang]/token` | Tokenomics: supply/allocation and the Genesis halving schedule |
 | `/[lang]/impact` | Impact-treasury proposals (empty until the bridge has data) |
 
-`/[lang]/block/[height]`, `/blocks`, `/address/[addr]` and `/search` render on demand;
+`/` (the landing page), `/[lang]/block/[height]`, `/blocks`, `/address/[addr]` and `/search` render on demand;
 `/[lang]`, `/token`, `/impact`, `/_not-found` and `/sitemap.xml` are prerendered.
 
 ## Read-only API
